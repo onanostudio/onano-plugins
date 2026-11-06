@@ -1,0 +1,54 @@
+{
+  "name": "onano-studio",
+  "version": "1.0.0",
+  "description": "Edit video with Codex in Onano Studio, a free desktop video editor for Windows. Cut long videos into shorts, caption them, add AI motion graphics, sound and music, then export and publish to YouTube, TikTok and Instagram. Your footage stays on your computer.",
+  "author": {
+    "name": "Onano",
+    "url": "https://onano.app"
+  },
+  "homepage": "https://onano.app",
+  "keywords": [
+    "video",
+    "video-editing",
+    "editor",
+    "shorts",
+    "captions",
+    "motion-graphics",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "Onano Studio",
+    "shortDescription": "Edit video on your own PC",
+    "longDescription": "Onano Studio is a free desktop video editor for Windows that Codex can drive. Ask for a long video cut into shorts, captions in your look, a motion graphic written for the moment, music cut to the beat, a voiceover, then export and publish to YouTube, TikTok and Instagram. Every edit lands on a real timeline you can change by hand, and your footage never leaves your computer. Needs Onano Studio installed (free, onano.app/download).",
+    "developerName": "Onano",
+    "category": "Productivity",
+    "capabilities": [
+      "Cut long videos into shorts",
+      "Caption videos from the transcript",
+      "Make AI motion graphics",
+      "Edit on a real timeline",
+      "Export and publish videos"
+    ],
+    "websiteURL": "https://onano.app",
+    "supportURL": "https://onano.app",
+    "privacyPolicyURL": "https://onano.app/privacy",
+    "termsOfServiceURL": "https://onano.app/terms",
+    "defaultPrompt": [
+      "Turn my latest recording into three shorts with captions.",
+      "Make a title card motion graphic for this video.",
+      "Take out the pauses and the ums."
+    ],
+    "brandColor": "#2F7BFF",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/get-started/SKILL.md"
+    }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/onanostudio/onano-plugins"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "onano": {
+      "command": "cmd",
+      "args": ["/d", "/c", "${PLUGIN_ROOT}/bin/onano-mcp.cmd"]
+    }
+  }
+}

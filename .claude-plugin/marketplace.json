@@ -1,0 +1,15 @@
+{
+  "name": "onano",
+  "description": "Onano Studio for Claude Code: edit video on your own computer by asking.",
+  "owner": {
+    "name": "Onano",
+    "url": "https://onano.app"
+  },
+  "plugins": [
+    {
+      "name": "onano-studio",
+      "source": "./onano",
+      "description": "Edit video with Claude Code in Onano Studio: shorts, captions, AI motion graphics, sound, export and publish. Free, Windows, your footage stays on your computer."
+    }
+  ]
+}

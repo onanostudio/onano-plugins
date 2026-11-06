@@ -1,0 +1,24 @@
+{
+  "name": "onano-studio",
+  "version": "1.0.0",
+  "description": "Edit video with Claude Code in Onano Studio, a free desktop video editor for Windows. Cut long videos into shorts, caption them, add AI motion graphics, sound and music, then export and publish to YouTube, TikTok and Instagram. Your footage stays on your computer.",
+  "author": {
+    "name": "Onano",
+    "url": "https://onano.app"
+  },
+  "homepage": "https://onano.app",
+  "keywords": [
+    "video",
+    "video-editing",
+    "editor",
+    "shorts",
+    "captions",
+    "motion-graphics",
+    "tiktok",
+    "youtube",
+    "instagram",
+    "mcp"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/onanostudio/onano-plugins"
+}

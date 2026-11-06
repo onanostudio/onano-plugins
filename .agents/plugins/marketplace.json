@@ -1,0 +1,20 @@
+{
+  "name": "onano",
+  "interface": {
+    "displayName": "Onano"
+  },
+  "plugins": [
+    {
+      "name": "onano-studio",
+      "source": {
+        "source": "local",
+        "path": "./onano"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
