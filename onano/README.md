@@ -30,9 +30,10 @@ uploaded, and the thinking runs on the Claude Code or Codex plan you already hav
 
    ```
    codex plugin marketplace add onanostudio/onano-plugins
+   codex plugin add onano-studio@onano
    ```
 
-   then install **Onano Studio** from `/plugins`.
+   or, in the Codex app, find **Onano Studio** under Plugins.
 3. Restart the agent, open Studio's window, and ask: *"Turn my latest recording into three
    shorts with captions."*
 
