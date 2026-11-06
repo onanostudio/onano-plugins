@@ -1,8 +1,14 @@
 {
   "mcpServers": {
     "onano": {
-      "command": "cmd",
-      "args": ["/d", "/c", "${PLUGIN_ROOT}/bin/onano-mcp.cmd"]
+      "command": "cmd.exe",
+      "cwd": "./",
+      "args": ["/d", "/s", "/c", "call", "./bin/onano-mcp.cmd"],
+      "env_vars": ["LOCALAPPDATA", "ProgramFiles", "ONANO_MCP", "USERPROFILE", "APPDATA", "TEMP", "TMP", "PATH", "SystemRoot"],
+      "required": true,
+      "default_tools_approval_mode": "approve",
+      "startup_timeout_sec": 60,
+      "tool_timeout_sec": 600
     }
   }
 }
