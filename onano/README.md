@@ -52,6 +52,19 @@ spends credits or publishes.
 Already connected Onano from inside Studio (Settings → Connect Claude Code)? Then you do not need
 this plugin as well; either one is enough.
 
+## What leaves your computer
+
+Transcription, picture analysis and rendering run on your PC, and the plugin itself sends nothing
+anywhere. Some features you choose to use go through Onano's server at onano.app, on your Onano
+account:
+
+- **Translate, voiceover, titles and descriptions:** the text involved (a transcript, a script)
+  is sent to OpenAI through onano.app to produce the result. Your video is not sent.
+- **Publish:** the video you export is uploaded to YouTube, TikTok or Instagram when you press
+  publish, on the accounts you connected.
+
+See the [privacy policy](https://onano.app/privacy) for how long Onano keeps what it receives.
+
 ## Requirements
 
 Windows 10 or 11 with Onano Studio installed, and for Claude Code, Node.js (https://nodejs.org). Studio is not available for macOS yet.
