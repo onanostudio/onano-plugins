@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "onano": {
-      "command": "cmd",
-      "args": ["/d", "/c", "${CLAUDE_PLUGIN_ROOT}/bin/onano-mcp.cmd"]
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/onano-mcp.js"]
     }
   }
 }

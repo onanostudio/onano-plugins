@@ -3,7 +3,7 @@
     "onano": {
       "command": "cmd.exe",
       "cwd": "./",
-      "args": ["/d", "/s", "/c", "call", "./bin/onano-mcp.cmd"],
+      "args": ["/d", "/s", "/c", "call", "./scripts/onano-mcp.cmd"],
       "env_vars": ["LOCALAPPDATA", "ProgramFiles", "ONANO_MCP", "USERPROFILE", "APPDATA", "TEMP", "TMP", "PATH", "SystemRoot"],
       "required": true,
       "default_tools_approval_mode": "approve",

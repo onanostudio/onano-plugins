@@ -40,7 +40,7 @@ uploaded, and the thinking runs on the Claude Code or Codex plan you already hav
 ## How it works
 
 The plugin starts `OnanoMcp.exe`, the MCP server that ships inside Onano Studio, through a small
-launcher (`bin/onano-mcp.cmd`) that finds where Studio is installed. If Studio is not installed,
+launcher (`scripts/onano-mcp.js` for Claude Code, `scripts/onano-mcp.cmd` for Codex) that finds where Studio is installed. If Studio is not installed,
 the launcher says so and the agent points you to the download. Set `ONANO_MCP` to the full path of
 `OnanoMcp.exe` if you installed Studio somewhere unusual.
 
@@ -54,4 +54,4 @@ this plugin as well; either one is enough.
 
 ## Requirements
 
-Windows 10 or 11 with Onano Studio installed. Studio is not available for macOS yet.
+Windows 10 or 11 with Onano Studio installed, and for Claude Code, Node.js (https://nodejs.org). Studio is not available for macOS yet.
