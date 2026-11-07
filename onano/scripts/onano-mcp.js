@@ -8,6 +8,7 @@
 'use strict';
 const { spawn } = require('child_process');
 const fs = require('fs');
+const os = require('os');
 const path = require('path');
 
 function fail(lines) {
@@ -19,12 +20,13 @@ if (process.platform !== 'win32') {
   fail(['Onano Studio runs on Windows only for now, so its editing tools are not available here.']);
 }
 
-const env = process.env;
-const candidates = [];
-if (env.ONANO_MCP) candidates.push(env.ONANO_MCP);
-for (const root of [env.LOCALAPPDATA, env.LOCALAPPDATA && path.join(env.LOCALAPPDATA, 'Programs'), env.ProgramFiles]) {
-  if (root) candidates.push(path.join(root, 'Onano Studio', 'OnanoMcp.exe'));
-}
+// Studio installs per user under AppData\Local, or for everyone under Program Files.
+const home = os.homedir();
+const candidates = [
+  path.join(home, 'AppData', 'Local', 'Onano Studio', 'OnanoMcp.exe'),
+  path.join(home, 'AppData', 'Local', 'Programs', 'Onano Studio', 'OnanoMcp.exe'),
+  path.join('C:', 'Program Files', 'Onano Studio', 'OnanoMcp.exe'),
+];
 
 const exe = candidates.find((p) => {
   try { return fs.statSync(p).isFile(); } catch { return false; }

@@ -42,7 +42,7 @@ uploaded, and the thinking runs on the Claude Code or Codex plan you already hav
 The plugin starts `OnanoMcp.exe`, the MCP server that ships inside Onano Studio, through a small
 launcher (`scripts/onano-mcp.js` for Claude Code, `scripts/onano-mcp.cmd` for Codex) that finds where Studio is installed. If Studio is not installed,
 the launcher says so and the agent points you to the download. Set `ONANO_MCP` to the full path of
-`OnanoMcp.exe` if you installed Studio somewhere unusual.
+`OnanoMcp.exe` if you installed Studio somewhere unusual (Codex only).
 
 Two skills come with it: `get-started` checks the connection on first use, and
 `onano-video-editing` teaches the agent how to edit in Studio: read the timeline before
