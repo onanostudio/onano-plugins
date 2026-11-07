@@ -20,5 +20,9 @@
     "mcp"
   ],
   "license": "MIT",
-  "repository": "https://github.com/onanostudio/onano-plugins"
+  "repository": "https://github.com/onanostudio/onano-plugins",
+  "documentationUrl": "https://github.com/onanostudio/onano-plugins/tree/main/onano#readme",
+  "supportUrl": "https://github.com/onanostudio/onano-plugins/issues",
+  "privacyPolicyUrl": "https://onano.app/privacy",
+  "termsOfServiceUrl": "https://onano.app/terms"
 }
