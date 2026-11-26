@@ -36,7 +36,9 @@ everything the agent makes can still be changed by hand.
 
 ## Setup
 
-1. Install Onano Studio (free): https://onano.app/download. Open it once.
+1. Install Onano Studio (free): https://onano.app/download. Open it once and sign in. On the Free
+   plan your agent gets 10 timeline edits to try it (looking at the timeline is always free); a
+   paid plan keeps it editing, starting with Creator Lite, the plan made for your own agent.
 2. Install the plugin.
 
    **Claude Code**
