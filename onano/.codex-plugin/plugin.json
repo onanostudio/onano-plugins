@@ -1,7 +1,7 @@
 {
   "name": "onano-studio",
   "version": "1.0.0",
-  "description": "Edit video with Codex in Onano Studio, a free desktop video editor for Windows. Cut long videos into shorts, caption them, add AI motion graphics, sound and music, then export and publish to YouTube, TikTok and Instagram. Your footage stays on your computer.",
+  "description": "Edit video with Codex in Onano Studio, a free desktop video editor for Windows. Turn raw clips into a finished video or long recordings into shorts, caption them, add AI motion graphics, sound and music, then export and publish to YouTube, TikTok and Instagram. Your footage stays on your computer.",
   "author": {
     "name": "Onano",
     "url": "https://onano.app"
@@ -14,7 +14,11 @@
     "shorts",
     "captions",
     "motion-graphics",
-    "mcp"
+    "mcp",
+    "raw-clips",
+    "video-from-clips",
+    "beat-sync",
+    "remotion-alternative"
   ],
   "skills": "./skills/",
   "mcpServers": "./codex.mcp.json",

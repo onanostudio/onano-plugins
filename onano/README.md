@@ -1,18 +1,38 @@
 # Onano Studio for Claude Code and Codex
 
-Edit video by asking. This plugin connects Claude Code or Codex to
-[Onano Studio](https://onano.app), a free desktop video editor for Windows, so your agent can
-work on a real timeline you can see and change by hand:
+**Edit video by asking.** This plugin lets Claude Code or Codex edit in
+[Onano Studio](https://onano.app), a free desktop video editor for Windows, on a real timeline you
+can see and change by hand. A folder of raw clips becomes a finished 45-second video, a long
+recording becomes shorts, and motion graphics land on your words and on the beat.
 
-- turn a long recording into shorts, reframed for TikTok, Reels and Shorts
-- take out pauses and filler words
+![A motion reel: kinetic type, a chart that counts up, a 3D knot and a waving character](assets/showreel.gif)
+
+*Made in Onano Studio with Claude Opus 5.5, by asking: kinetic type, a chart that counts up, real 3D and a character, each one a motion graphic on Studio's timeline that can still be changed by hand.*
+
+## What one sentence gets you
+
+| You ask | You get, on the timeline |
+|---|---|
+| "Make a 45-second recap for Instagram from these clips." | The best moments from every clip, in an order that tells it, 9:16, captioned |
+| "Turn my latest recording into three shorts with captions." | Three sequences reframed on the speaker, with titles and descriptions written |
+| "Cut the B-roll to the beat of this song." | Every cut on a beat of the music |
+| "Add a graphic of the three steps when I name them." | An animated graphic timed to the words, and to the music's beats when a song plays |
+| "Take out the pauses and the ums." | A tighter cut you can check word by word |
+
+It can also:
+
 - caption from the transcript, in your look
-- write animated motion graphics (titles, stats, lists, lower thirds) for the moment
-- add sound effects, cut music to the beat, even out voices
+- write animated motion graphics (titles, stats, lists, lower thirds, 3D) for the moment
+- add sound effects, even out voices
 - export, and open Publish for YouTube, TikTok and Instagram (you press the button)
 
 Transcription, picture analysis and rendering run on your computer. Your footage is never
 uploaded, and the thinking runs on the Claude Code or Codex plan you already have.
+
+**Next to Remotion and HyperFrames:** those render a video from code. Onano does that too (its
+motion graphics are HTML, rendered frame by frame, with real 3D and people cut out of footage),
+and it also edits the footage you already have: it cuts, captions and mixes on a timeline, and
+everything the agent makes can still be changed by hand.
 
 ## Setup
 

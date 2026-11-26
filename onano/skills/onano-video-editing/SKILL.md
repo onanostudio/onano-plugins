@@ -40,7 +40,19 @@ change by hand. The footage never leaves the machine.
 - **Sound:** `onano_list_sounds` and `onano_add_sound` for effects (keep them about 0.25 under
   speech), `onano_cut_to_beats` for a montage on a song, `onano_level_voices` to even out speakers.
 - **Footage they already have:** `onano_find_footage` searches the folders they let the AI use;
-  `onano_read_folder` and `onano_import_media` bring files into the bin.
+  `onano_read_folder` and `onano_import_media` bring files into the bin. Studio has already read
+  that footage (words and pictures) and keeps what agents saw before, so search first. Do not
+  open frames until a search has narrowed things down.
+- **Looking at footage costs the most.** Every frame is a picture you carry for the rest of the
+  session. Look yourself only to choose between one or two candidates. When a search comes back
+  thin (nothing fits, long takes with few labels, files not read yet) and finding the shot means
+  looking through several files or minutes of footage, hand that to a scout:
+  - **Claude Code:** the `footage-scout` agent. Give it the files and a brief saying what the shot
+    must show, how long, the format and what to avoid. It returns three candidates with times.
+  - **Codex, or without a scout:** do the same yourself. Run `onano_look` first and skip any range
+    in its `noted`, then use `onano_see` with `at` on what is left.
+  - Either way, save what was seen with `onano_note_footage` so nobody looks at it again. Then
+    you decide which shot fits. Check one frame of the pick with `onano_see` when the shot matters.
 - **Mistakes:** `onano_undo` is the same as Ctrl+Z.
 
 ## Ask first
