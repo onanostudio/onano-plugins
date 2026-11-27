@@ -36,7 +36,11 @@ change by hand. The footage never leaves the machine.
 - **Graphics:** `onano_design_motion_graphic` writes an animated graphic for the moment (a title, a
   stat, a list, a lower third). It renders in the background; `onano_wait_for_background` waits for
   it. For simple words on screen, `onano_add_text`. Designed templates: `onano_list_motion_templates`
-  and `onano_fill_motion_template`.
+  and `onano_fill_motion_template`. Its `style` takes a way of working (explainer, cinematic,
+  kinetic, clean, playful) or a named look: broadcast, swiss-grid, editorial, marker-doodle,
+  blueprint, hud, neon-sign, tape-retro, comic-pop, paper-cutout, sports-hype, terminal. Looks are
+  premade options: use one only when they name it, otherwise design from what they asked. Start the
+  graphics before cutting -- each lands on its words even if your cuts move them.
 - **Sound:** `onano_list_sounds` and `onano_add_sound` for effects (keep them about 0.25 under
   speech), `onano_cut_to_beats` for a montage on a song, `onano_level_voices` to even out speakers.
 - **Footage they already have:** `onano_find_footage` searches the folders they let the AI use;
